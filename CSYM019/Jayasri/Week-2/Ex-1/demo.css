@@ -1,0 +1,24 @@
+
+.h1{
+	font-size: 300%;
+	color:red;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.h3{
+	font-size: 200%;
+	color:blue;
+	font-style: italic;
+}
+
+.p{
+	background-color: green;
+	color:#FFFFFF;
+	display:inline;
+}
+.myclass{
+	background-color: red;
+	color:#000000;
+	display:block;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>My First Page</title>
+<script>
+function myLoadFunction(){
+  var element = document.getElementById("pageHeading");
+  element.firstChild.nodeValue = "New Heading";
+  
+   var elementContent = document.getElementById("pageContent");
+   elementContent.firstChild.nodeValue = "New Content";
+}
+document.addEventListener('DOMContentLoaded',myLoadFunction);
+</script>
+</head>
+<body>
+   <h1 id="pageHeading">This is my first Page</h1>
+   <p id="pageContent">Page Content</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+.header {
+  background-color: #FA58D0;
+  height: 120px;
+  color: #DF0101;
+  font-size: 130%;
+  text-align: center;
+  border-radius: 60px/20px;
+  border: 4px solid red;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 2fr)) ;
+}
+
+  .box {
+    margin: 10px 0;
+    border: 4px solid black;
+    color: #000000;
+    border-radius: 100px;
+    padding: 40px;
+    font-size: 80%;
+
+  }
+
+.a {
+  background-color: #81F7F3;
+  font-family: sans-serif;
+  grid-column: auto / span 2;
+}
+
+.b {
+  background-color: #FFFF00;
+  grid-column: auto / span 2;
+}

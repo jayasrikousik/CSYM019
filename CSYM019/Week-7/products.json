@@ -1,0 +1,9 @@
+		{
+			"id": 21,
+			"name": "coconut oil",
+			"price": 40,		
+			"dealers": {
+				"name":"Kousik",
+			"email":"Dhakshankousik@gmail.com"
+			}
+	}

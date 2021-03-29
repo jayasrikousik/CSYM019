@@ -1,0 +1,18 @@
+{
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "title": "Product Details",
+   "description": "Products from Bingo's catalog",
+   "type": "object",
+	"properties": {
+	     "id": {"type": "integer"},
+       "name": {"type": "string"},
+		"price": {"type": "number", "minimum": 0},
+    "dealers": { 
+                  "type": "object",
+                  "properties": {
+                      "name": { "type" : "string"},
+                      "email": { "type" : "string"}
+                  }
+               }
+               }   
+}
